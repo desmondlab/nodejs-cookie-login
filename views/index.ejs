@@ -1,0 +1,10 @@
+  <% include ./header.ejs %>
+
+  <h1><%= title %></h1>
+  <p>Hello ! <%= member %></p>
+  <p>Welcome to <%= title %></p>
+  <% if (logstatus == false){ %>
+     <a href="login.html">Login</a>
+   <% } else { %>
+    <a href="./logout">Logout</a>
+  <% } %>
