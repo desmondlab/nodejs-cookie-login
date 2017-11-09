@@ -18,4 +18,4 @@ Although signed cookies will still be visible in the browser, but it has a signa
 
 rel: <br />
 1. https://stackoverflow.com/questions/11897965/what-are-signed-cookies-in-connect-expressjs <br />
-2. http://cythilya.blogspot.hk/2015/08/node-cookie-and-session.html
+2. https://cythilya.github.io/2015/08/18/node-cookie-and-session/
