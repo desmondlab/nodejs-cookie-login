@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // sign for cookie
+// better to save in another js file and add to the .gitignore
 app.use('/cookie', cookieParser('1234567890'));
 
 //static files: like .js, .json, .xml, html....
