@@ -4,11 +4,16 @@ For the cookie api in express:
 
 http://expressjs.com/zh-tw/4x/api.html
 
+
 Response (set up cookie in server and pass to the client):
+
 res.cookie(name, value [, options])
+
 res.clearCookie(name [, options])
 
+
 Request ( receive cookie from client):
+
 req.signedCookies
 
 To use signed cookie in express, cookie-parser has to be used.
